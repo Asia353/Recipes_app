@@ -1,0 +1,5 @@
+@import "./palette.css";
+
+:root {
+  --color-primary: var(--blue-100);
+}

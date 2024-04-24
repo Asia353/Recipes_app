@@ -1,0 +1,17 @@
+@import "../../styles/fonts.css";
+@import "../../styles/colors.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.centralText {
+  font-size: 64px;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-family: var(--Unigeo32-Regular);
+}
