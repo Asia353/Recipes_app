@@ -11,5 +11,15 @@
 
 .card {
   padding: 16px;
-  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media (min-width: 450px) {
+  .card {
+    width: 450px;
+    box-shadow: var(--color-shadow) 2px 2px 10px;
+    border-radius: 8px;
+  }
 }
