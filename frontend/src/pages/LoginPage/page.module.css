@@ -1,0 +1,15 @@
+@import "../../styles/colors.css";
+@import "../../styles/breakpoints.css";
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+.card {
+  padding: 16px;
+  border-radius: 8px;
+}
