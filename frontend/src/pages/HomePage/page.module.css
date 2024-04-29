@@ -9,6 +9,10 @@
   height: 100vh;
 }
 
+.container p {
+  color: var(--color-primary);
+}
+
 .centralText {
   font-size: 64px;
   font-weight: bold;

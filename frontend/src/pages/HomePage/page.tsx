@@ -6,6 +6,7 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.centralText}>Home Page</h1>
+      <p>This should be purple</p>
     </div>
   )
 }
