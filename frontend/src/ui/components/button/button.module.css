@@ -1,0 +1,36 @@
+@import "../../../styles/fonts.css";
+@import "../../../styles/colors.css";
+@import "../../../styles/palette.css";
+
+.button {
+    border-radius: 10px;
+    border: 2px solid;
+    font-family: --Unigeo32-Regular;
+}
+
+.sm {
+    padding: 4px;
+}
+
+.md {
+
+}
+
+.lg {
+
+}
+
+.primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-secondary);
+    color: var(--white);
+}
+
+.danger {
+
+}
+
+.outline {
+
+}
+

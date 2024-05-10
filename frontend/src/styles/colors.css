@@ -1,8 +1,11 @@
 @import "./palette.css";
 
 :root {
-  --color-primary: var(--blue-100);
-  --color-background: var(--gray-900);
-  --color-shadow: var(--gray-500);
-  --color-text: var(--black);
+  --color-primary: var(--green-200);
+  --color-secondary: var(--green-100);
+  --color-tertiary: var(--beige);
+  --color-background: var(--green-900);
+  --color-shadow: var(--shadow);
+  --color-text: var(--gray);
+  --color-disabled: var(--gray-light);
 }
