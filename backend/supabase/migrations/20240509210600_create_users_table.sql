@@ -4,9 +4,3 @@ CREATE TABLE users (
   created_at TIMESTAMP WITH TIME ZONE DEFAULT now(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT now()
 );
-
-
-INSERT INTO public.users (name)
-VALUES
-('anon'),
-('admin');
