@@ -1,0 +1,9 @@
+{
+  "name": "@recipesapp/shared",
+  "version": "1.0.0",
+  "description": "Shared types for recipes app",
+  "author": "RecipesApp",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/Asia353/Recipes_app"
+}
