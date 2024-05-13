@@ -8,4 +8,5 @@
   --color-shadow: var(--shadow);
   --color-text: var(--gray);
   --color-disabled: var(--gray-light);
+  --color-white: var(--white);
 }

@@ -1,2 +1,21 @@
+@import "./../../styles/colors.css";
+@import "./../../styles/fonts.css";
+
 .wrapper {
+}
+
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid var(--color-white);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--color-text);
+    font-family: var(--Unigeo32-Regular);
+}
+
+.input:focus {
+    border: 2px solid;
+    border-color: var(--color-primary);
+    outline: none;
 }

@@ -2,7 +2,13 @@ import React from "react";
 import styles from "./button.module.css";
 
 const buttonSizes = ["sm", "md", "lg"] as const;
-const buttonVariants = ["danger", "primary", "outline"] as const;
+const buttonVariants = [
+  "danger",
+  "primary",
+  "outline",
+  "secondary",
+  "current",
+] as const;
 
 type ButtonProps = {
   title: string;
@@ -11,6 +17,7 @@ type ButtonProps = {
   onClick: () => void;
   icon?: React.ReactNode;
   disabled?: boolean;
+  className?: string;
 };
 
 const Button = ({
@@ -20,8 +27,9 @@ const Button = ({
   onClick,
   icon,
   disabled = false,
+  className = "",
 }: ButtonProps) => {
-  const buttonClassName = `${styles.button} ${styles[size]} ${styles[variant]}`;
+  const buttonClassName = `${styles.button} ${styles[size]} ${styles[variant]} ${className}`;
   return (
     <button
       type="button"

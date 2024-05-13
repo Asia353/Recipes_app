@@ -1,3 +1,4 @@
 :root {
   --Unigeo32-Regular: "Unigeo32-Regular";
+  color: var(--color-text);
 }
