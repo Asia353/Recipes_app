@@ -1,5 +1,5 @@
-@import "../../styles/fonts.css";
-@import "../../styles/colors.css";
+@import "../../ui/styles/colors.css";
+@import "../../ui/styles/fonts.css";
 
 .container {
   display: flex;

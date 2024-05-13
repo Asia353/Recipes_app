@@ -1,0 +1,8 @@
+@import "../../../../ui/styles/colors.css";
+
+.wrapper {
+    background-color: var(--white);
+    padding: 24px;
+    height: 400px;
+    margin-top: auto;
+}

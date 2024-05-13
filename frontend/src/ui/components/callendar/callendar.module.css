@@ -1,0 +1,8 @@
+@import "../../styles/colors.css";
+@import "../../styles/fonts.css";
+
+.callendar {
+    background-color: var(--white);
+    padding: 24px;
+    height: 200px;
+}

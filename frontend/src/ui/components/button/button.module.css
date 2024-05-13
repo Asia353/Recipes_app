@@ -1,19 +1,23 @@
-@import "../../../styles/fonts.css";
-@import "../../../styles/colors.css";
-@import "../../../styles/palette.css";
+@import "../../styles/fonts.css";
+@import "../../styles/colors.css";
+@import "../../styles/palette.css";
 
 .button {
     border-radius: 10px;
     border: 2px solid;
     font-family: --Unigeo32-Regular;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .sm {
     padding: 4px;
+    height: 26px;
 }
 
 .md {
-
+    padding: 15px;
+    height: 50px;
 }
 
 .lg {
@@ -24,6 +28,27 @@
     background-color: var(--color-primary);
     border-color: var(--color-secondary);
     color: var(--white);
+}
+
+.current {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--white);
+}
+
+.secondary {
+    background-color: var(--color-white);
+    border-color: var(--color-white);
+    color: var(--color-text);
+}
+
+.secondary:hover {
+    background-color: var(--color-white);
+    border-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+.primary:focus {
 }
 
 .danger {

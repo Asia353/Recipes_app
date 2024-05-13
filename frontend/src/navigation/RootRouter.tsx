@@ -1,6 +1,6 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import { HomePage, LoginPage } from "../pages";
+import { HomePage, LoginPage, MainPage } from "../pages";
 
 const RootRouter = createBrowserRouter([
   {
@@ -10,6 +10,10 @@ const RootRouter = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />,
+  },
+  {
+    path: "/home",
+    element: <MainPage />,
   },
 ]);
 

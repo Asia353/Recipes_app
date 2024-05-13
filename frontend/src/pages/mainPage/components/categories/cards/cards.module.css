@@ -1,0 +1,8 @@
+@import "../../../../../ui/styles/colors.css";
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
